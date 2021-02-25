@@ -1,3 +1,3 @@
-# Documentation
+# APIs
 
-Include Markdown documentation in this folder.
+[../api/buildings.json](Buildings)

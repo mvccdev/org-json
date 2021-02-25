@@ -4,28 +4,32 @@
 
 A collection of college data in JSON format.
 
-## APIs
-
-* [Campuses](api/campuses.md)
+[Documentation](doc/toc.md)
 
 ## Example
+
+	fetch("https://raw.githubusercontent.com/mvccdev/college-data/main/api/{NAME}.json")
+		.then((resp) => {
+			resp.json().then((data) => {
+				//
+				// Iterate through the array here.
+				//
+			}
+		});
+	})
 
 ## Skill Prerequisites
 
 A basic understanding of the following skills are necessary to use this project.
 
-* [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [OOCSS](https://www.keycdn.com/blog/oocss)
-* [BEM](https://en.bem.info/)
+* [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-## Tool Dependencies
+# Tool Dependencies
 
 Install the following tools to use this project in your local development environment.
 
 * [Node.js](https://nodejs.org/)
-* [Parcel](https://parceljs.org/)
 * [Git](https://git-scm.com/)
 * [GitHub Desktop](https://desktop.github.com/)
 
