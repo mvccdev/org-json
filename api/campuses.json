@@ -1,4 +1,4 @@
-{
+[
 	{
 		"name": 	"Main campus",
 		"code": 	"mvcc"
@@ -11,4 +11,4 @@
 		"name": 	"Southwest Education Center",
 		"code": 	"swec"
 	}
-}
+]
