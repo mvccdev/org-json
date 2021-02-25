@@ -1,0 +1,14 @@
+{
+	{
+		"name": 	"Main campus",
+		"code": 	"mvcc"
+	},
+	{
+		"name": 	"Education Center at Blue Island",
+		"code": 	"bbec"
+	},
+	{
+		"name": 	"Southwest Education Center",
+		"code": 	"swec"
+	}
+}
