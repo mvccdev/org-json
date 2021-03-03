@@ -8,6 +8,8 @@ A collection of college data in JSON format.
 
 ## Example
 
+It's not recommended to do this from the main branch. Please use a release.
+
 	fetch("https://raw.githubusercontent.com/mvccdev/college-data/main/api/{NAME}.json")
 		.then((resp) => {
 			resp.json().then((data) => {
