@@ -37,8 +37,8 @@ Install the following tools to use this project in your local development enviro
 
 Follow these steps to install this project.
 
-	git clone https://github.com/github-template/github-template.git
-	cd github-template
+	git clone https://github.com/college-data/college-data.git
+	cd college-data
 	npm install
 	npm run watch
 
