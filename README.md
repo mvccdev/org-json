@@ -1,8 +1,8 @@
 ![](https://img.shields.io/static/v1?label=category&message=json&color=red)
 
-# College Data
+# Org JSON
 
-A collection of college data in JSON format.
+A collection of campus organization data in JSON format.
 
 [Documentation](doc/toc.md)
 
@@ -10,7 +10,7 @@ A collection of college data in JSON format.
 
 It's not recommended to do this from the main branch. Please use a release.
 
-	fetch("https://raw.githubusercontent.com/mvccdev/college-data/main/api/{NAME}.json")
+	fetch("https://raw.githubusercontent.com/mvccdev/org-json/main/api/{NAME}.json")
 		.then((resp) => {
 			resp.json().then((data) => {
 				//
@@ -18,7 +18,7 @@ It's not recommended to do this from the main branch. Please use a release.
 				//
 			}
 		});
-	})
+	});
 
 ## Skill Prerequisites
 
@@ -39,8 +39,8 @@ Install the following tools to use this project in your local development enviro
 
 Follow these steps to install this project.
 
-	git clone https://github.com/college-data/college-data.git
-	cd college-data
+	git clone https://github.com/org-json/org-json.git
+	cd org-json
 	npm install
 	npm run watch
 

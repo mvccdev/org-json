@@ -1,7 +1,7 @@
 {
-	"name": "github-template",
+	"name": "org-json",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A collection of campus organization data in JSON format.",
 	"author": "Moraine Valley Community College",
 	"license": "MIT",
 	"keywords": [
